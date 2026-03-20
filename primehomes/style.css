@@ -1,0 +1,100 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+text-align:center;
+}
+
+/* HEADER */
+header{
+background:#1a1a1a;
+color:white;
+padding:20px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* HERO SECTION */
+.hero{
+background-image: url("images/realestate.jpg");
+background-size:cover;
+background-position:center;
+color:white;
+padding:120px 20px;
+}
+
+.hero h2{ color: #222; }
+font-size:40px;
+}
+
+.hero p{  color:#333; }
+font-size:20px;
+}
+
+button{
+padding:12px 25px;
+font-size:16px;
+background:#006400;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#228b22;
+}
+
+/* SECTIONS */
+.listings, .about, .contact{
+padding:40px;
+}
+
+/* PROPERTY CARDS */
+.service-box{
+background:white;
+margin:20px;
+padding:20px;
+width:250px;
+border-radius:8px;
+box-shadow:0px 2px 8px rgba(0,0,0,0.2);
+display:inline-block;
+transition:0.3s;
+}
+
+.service-box:hover{
+transform:translateY(-5px);
+box-shadow:0px 6px 15px rgba(0,0,0,0.3);
+}
+
+/* FOOTER */
+footer{
+background:#1a1a1a;
+color:white;
+padding:20px;
+margin-top:40px;
+}
+
+/* MOBILE RESPONSIVE */
+@media(max-width:768px){
+.service-box{
+width:90%;
+margin:10px 0;
+}
+
+.hero h2{
+font-size:28px;
+}
+
+.hero p{
+font-size:16px;
+}
+}
